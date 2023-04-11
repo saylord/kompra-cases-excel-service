@@ -16,10 +16,10 @@ import lombok.Setter;
 public class LitigationDocumentListDTO {
     @SerializedName("docdate")
     @Expose
-    private String docdate;
+    private String docDate;
     @SerializedName("docname")
     @Expose
-    private String docname;
+    private String docName;
     @SerializedName("fileUrl")
     @Expose
     private String fileUrl;

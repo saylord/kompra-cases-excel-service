@@ -13,9 +13,6 @@ import java.util.List;
 @Setter
 @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY)
 public class LitigationDTO {
-//    @SerializedName("id")
-//    @Expose
-//    private Integer id;
     @SerializedName("status")
     @Expose
     private String status;
